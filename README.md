@@ -15,6 +15,20 @@ dy/dx = 157x² - 78x + 408y³ - 34y² - 28y - 16
 - Helper function used:
 F(x) = 157x² - 78x + 408
 
+---
+
+## 📌 Numerical Method
+The program uses **Euler’s Method** to solve ODEs of the form:
+- dy/dx = f(x, y), with y(x₀) = y₀
+The approximation is done using the formula:
+- yₙ₊₁ = yₙ + h * f(xₙ, yₙ)
+
+Where:
+- `h` is the step size
+- `xₙ` and `yₙ` are the values at the current step
+
+---
+
 # 📥 Inputs
 Passed to the program using MARS IDE pa option:
 
@@ -43,8 +57,4 @@ Passed to the program using MARS IDE pa option:
 - Displays the computed values for each iteration
 - Modular, readable assembly code with comments for clarity
 
----
-
-## 📌 Numerical Method
-The program uses **Euler’s Method** (or your chosen method) to solve ODEs of the form:
 
