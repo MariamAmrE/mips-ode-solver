@@ -1,5 +1,3 @@
-# mips-ode-solver
-A MIPS 32-bit assembly program that solves a first-order ordinary differential equation (ODE) using numerical methods, written and simulated on the MARS IDE.
 
 # 🧮 MIPS ODE Solver (First-Order ODE in MARS IDE)
 
@@ -9,6 +7,29 @@ This project is a MIPS 32-bit assembly implementation of a **first-order ordinar
 It demonstrates how low-level programming and computer architecture concepts can be applied to solve mathematical problems typically handled in high-level languages.
 
 ---
+
+## 🧮 Differential Equation
+
+- The program solves the following **non-linear first-order ODE**:
+dy/dx = 157x² - 78x + 408y³ - 34y² - 28y - 16
+- Helper function used:
+F(x) = 157x² - 78x + 408
+
+# 📥 Inputs
+Passed to the program using MARS IDE pa option:
+
+- y(0) → initial value of y (float)
+
+- h → step size (float)
+
+- n → number of steps (integer)
+
+# 📤 Output
+- Final y value after n steps is:
+
+-- Stored in register $v0
+
+-- Written to memory at address 0x10010000
 
 ## 🛠 Tools & Technologies
 - **MIPS Assembly (32-bit)**
