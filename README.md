@@ -27,9 +27,9 @@ Passed to the program using MARS IDE pa option:
 # 📤 Output
 - Final y value after n steps is:
 
--- Stored in register $v0
+ Stored in register $v0
 
--- Written to memory at address 0x10010000
+ Written to memory at address 0x10010000
 
 ## 🛠 Tools & Technologies
 - **MIPS Assembly (32-bit)**
